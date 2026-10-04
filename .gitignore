@@ -1,0 +1,64 @@
+# Delft3D raw/model data
+*.dat
+*.def
+*.grd
+*.dep
+*.enc
+*.bnd
+*.obs
+*.mdf
+*.mdu
+*.nc
+
+# Research data / analysis results
+*.csv
+*.xlsx
+*.xls
+
+# Generated output
+output/
+results/
+qgis_export_final/
+peta/
+grafik/
+csv/
+animasi/
+
+# GIS files (bisa memuat path lokal & data penelitian)
+*.qgz
+*.qgs
+*.qgz~
+*.qgs~
+*.aux.xml
+*.gpkg
+*.tif
+*.tiff
+*.shp
+*.shx
+*.dbf
+*.prj
+
+# Temporary / log
+*.tmp
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# Local configuration / secrets
+.env
+config_local.py
+
+# OS files
+Thumbs.db
+.DS_Store
+
+# IDE / editor
+.vscode/
+.idea/
